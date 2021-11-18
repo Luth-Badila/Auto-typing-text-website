@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css ">
+    <title>Webiste with Typing Text</title>
+</head>
+
+<body>
+    <header>
+        <!-- Menu-Navigation -->
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">ABOUT</a>
+                </li>
+                <li>
+                    <a href=" ">PORTOFOLIO</a>
+                </li>
+                <li>
+                    <a href=" ">SERVICES</a>
+                </li>
+            </ul>
+            <img src="images/menu.png " alt="menu" class="menu-icon">
+        </nav>
+        <!-- Text Box -->
+        <div class="textbox">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>you can reach out to me if you need only help in making a <br> design of website for you or your business</p>
+            <a href="">Contact Me</a>
+            <a href="" class="btn">Downlaod CV</a>
+        </div>
+
+        <!-- Images-User -->
+        <img src="images/user.png" alt="user" class="user-img">
+    </header>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed(".auto-input", {
+            strings: ["Anna Amelia", "Web Developer", "UI/UX Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
